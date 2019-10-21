@@ -1,5 +1,6 @@
 import React from 'react';
 import RecipeList from './RecipeList';
+import '../css/app.css';
 
 function App() {
 	return <RecipeList recipes={sampleRecipes} />;
@@ -40,7 +41,7 @@ const sampleRecipes = [
 			{
 				id: 2,
 				name: 'Paprika',
-				amount: '1 Tbs'
+				amount: '2 Tbs'
 			}
 		]
 	}
